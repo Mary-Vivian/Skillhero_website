@@ -1,0 +1,136 @@
+#navbar{
+    display: flex;
+    gap: 5%;
+}
+#log{
+    width: 10%;
+    height: 8%;
+    border-color: #F24662;
+}
+#join{
+    height: 10%;
+    width: 40%;
+    background-color: #ED2647;
+    border-radius: 15Px;
+}
+#firstcolumn{
+    display: flex;
+    padding-bottom: 10%;
+}
+#subscriptions{
+    display: flex;
+    gap: 3%;
+}
+.icons{
+    display: inline-flex;
+}
+#explore{
+    background-color:#F24662 ;
+    border-radius: 10px;
+    height: 10%;
+}
+#microsoft{
+    display: flex;
+    font-weight: 10px;
+}
+#udemy{
+    display: flex;
+}
+    
+#footer{
+    display: flex;
+    gap: 10%;
+}
+@media screen and (max-width:475px) and (min-width:375px){
+    #navbar{
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    #log{
+        width: 15%;
+        height: 8%;
+       
+    }
+    #firstcolumn{
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+    }
+    #subscriptions{
+       flex-wrap: wrap;
+        gap: 3%;
+    }
+    #footer{
+      flex-wrap: wrap;
+        gap: 10%;
+    }
+
+    
+}
+@media screen and (max-width:600px)and (min-width:475px){
+    #navbar{
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    #log{
+        width: 15%;
+        height: 8%;
+       
+    }
+    #firstcolumn{
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+    }
+    #subscriptions{
+       flex-wrap: wrap;
+        gap: 3%;
+    }
+    #footer{
+      flex-wrap: wrap;
+        gap: 10%;
+    }
+
+}
+@media screen and (max-width:800px)and (min-width:600px){
+    #navbar{
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    #log{
+        width: 15%;
+        height: 8%;
+       
+    }
+    #firstcolumn{
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+    }
+    #subscriptions{
+       flex-wrap: wrap;
+        gap: 3%;
+    }
+    #footer{
+      flex-wrap: wrap;
+        gap: 10%;
+    }
+
+} #navbar{
+    flex-wrap: wrap;
+    gap: 5%;
+}
+#log{
+    width: 15%;
+    height: 8%;
+   
+}
+#firstcolumn{
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+#subscriptions{
+   flex-wrap: wrap;
+    gap: 3%;
+}
+#footer{
+  flex-wrap: wrap;
+    gap: 10%;
+}
