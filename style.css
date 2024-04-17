@@ -2,31 +2,65 @@
     display: flex;
     gap: 3%;
 }
-#log{
+#skilltag{
+    display: inline-flex;
+   
+
+}
+#hero{
+    font-size: x-large;
+}
+
+#logbutton{
    height: 4%;
     border-color: #F24662;
+    
 }
-#join{
+#hometag{
+    color: red;
+}
+#joinbutton{
     height: 10%;
     background-color: #ED2647;
     border-radius: 15Px;
 }
-#firstcolumn{
+#Homepage{
     display: flex;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     gap: 3px;
+    font-size: xx-large;
 }
+  #super{
+    color: #ED2647;
+    display: flex;
+    font-weight: bolder;
+    
+  }
+  #upgrade{
+    color: #192F59;
+    font-weight: bolder;
+  }
+  #skilbutton{
+    font-size: x-large;
+  }
 #subscriptions{
     display: flex;
     gap: 3%;
+    font-size: xx-large;
 }
 .icons{
     display:flex;
 }
-#explore{
+#imagem{
+    object-fit: cover;
+    width: 400px;
+    margin-left: 20px;
+}
+#explorebutton{
     background-color:#F24662 ;
     border-radius: 10px;
-    height: 10%;
+    height: 30px;
+    margin-left: -20px;
 }
 #microsoft{
     display: flex;
@@ -36,32 +70,52 @@
     display: flex;
 }
     
-#footer{
+#logos{
     display: flex;
     gap: 10%;
+}
+body{
+    margin-left: 10%;
+    margin-right: 20px;
 }
 @media screen and (max-width:475px) and (min-width:375px){
     #navbar{
         flex-wrap: wrap;
         gap: 5%;
     }
-     #log{
+     #logbutton{
         width: 15%;
         height: 8%;
        
     } 
-    #firstcolumn{
+    #Homepage{
         flex-wrap: wrap;
         padding-bottom: 10%;
+        font-size: large;
     }
     #subscriptions{
        flex-wrap: wrap;
         gap: 3%;
+        font-size: smaller;
     }
-    #footer{
+    #logos{
       flex-wrap: wrap;
         gap: 5%;
     }
+    #imagem{
+        object-fit: cover;
+        width: 200px;
+        margin-left: 5px;
+    }
+    #super{
+        color: #ED2647;
+        display: flex;
+        font-size: smaller;
+        
+      }
+      #skilbutton{
+        font-size: smaller;
+      }
 
     
 }
@@ -75,7 +129,7 @@
         height: 8%;
        
     }
-    #firstcolumn{
+    #Homepage{
         flex-wrap: wrap;
         padding-bottom: 10%;
     }
@@ -83,10 +137,24 @@
        flex-wrap: wrap;
         gap: 3%;
     } 
-    #footer{
+    #logos{
       flex-wrap: wrap;
         gap: 10%;
     }
+    #imagem{
+        object-fit: cover;
+        width: 100px;
+        margin-left: 5px;
+    }
+    #super{
+        color: #ED2647;
+        display: flex;
+        font-size: smaller;
+        
+      }
+      #skilbutton{
+        font-size: smaller;
+      }
 
 }
 @media screen and (max-width:740px)and (min-width:600px){
@@ -99,7 +167,7 @@
     height: 8%;
    
 }
-#firstcolumn{
+#Homepage{
     flex-wrap: wrap;
     padding-bottom: 10%;
 }
@@ -107,10 +175,24 @@
    flex-wrap: wrap;
    
 } 
-#footer{
+#logos{
   flex-wrap: wrap;
     gap: 5%;
 }
+#imagem{
+    object-fit: cover;
+    width: 200px;
+    margin-left: 5px;
+}
+#super{
+    color: #ED2647;
+    display: flex;
+    font-size: smaller;
+    
+  }
+  #skilbutton{
+    font-size: smaller;
+  }
 }
 
 @media screen and (max-width:800px)and (min-width:740px){
@@ -122,7 +204,7 @@
         width: 15%;
         height: 8%; 
     }
-    #firstcolumn{
+    #Homepage{
         flex-wrap: wrap;
         padding-bottom: 10%;
     }
@@ -130,9 +212,23 @@
        flex-wrap: wrap;
        
     } 
-    #footer{
+    #logos{
       flex-wrap: wrap;
         gap: 10%;
     }
+    #imagem{
+        object-fit: cover;
+        width: 200px;
+        margin-left: 5px;
+    }
+    #super{
+        color: #ED2647;
+        display: flex;
+        font-size: smaller;
+        
+      }
+      #skilbutton{
+        font-size: smaller;
+      }
 }
 
