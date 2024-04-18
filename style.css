@@ -6,6 +6,10 @@
 #gradtag{
     padding-right: 20%;
    margin-bottom: 20px;
+   display: inline-flex;
+}
+#img{
+    width: 30px;
 }
 #skilltag{
     display: inline-flex;
