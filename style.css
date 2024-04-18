@@ -1,6 +1,11 @@
 #navbar{
     display: flex;
-    gap: 3%;
+    gap: 5%;
+   
+}
+#gradtag{
+    padding-right: 20%;
+   margin-bottom: 20px;
 }
 #skilltag{
     display: inline-flex;
@@ -26,8 +31,6 @@
 }
 #Homepage{
     display: flex;
-    padding-bottom: 5%;
-    gap: 3px;
     font-size: xx-large;
 }
   #super{
@@ -54,7 +57,7 @@
 #imagem{
     object-fit: cover;
     width: 400px;
-    margin-left: 20px;
+    
 }
 #explorebutton{
     background-color:#F24662 ;
@@ -75,13 +78,28 @@
     gap: 10%;
 }
 body{
-    margin-left: 10%;
-    margin-right: 20px;
+   margin-left: 10%;
+   margin-right: 10%;
 }
 @media screen and (max-width:475px) and (min-width:375px){
     #navbar{
         flex-wrap: wrap;
         gap: 5%;
+    }
+    .hamburger {
+        color: #F24662;
+        display: block;
+        cursor: pointer;
+    }
+    
+    .bar {
+        display: block;
+        width: 40px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
     }
      #logbutton{
         width: 15%;
@@ -115,14 +133,21 @@ body{
       }
       #skilbutton{
         font-size: smaller;
-      }
-
-    
+      }   
 }
 @media screen and (max-width:600px)and (min-width:475px){
     #navbar{
         flex-wrap: wrap;
         gap: 5%;
+    }
+    .bar {
+        display: block;
+        width: 40px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
     }
     #log{
         width: 15%;
@@ -162,6 +187,16 @@ body{
         flex-wrap: wrap;
         gap: 5%;
     }
+    
+    .bar {
+        display: block;
+        width: 40px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
 #log{
     width: 15%;
     height: 8%;
@@ -198,12 +233,22 @@ body{
 @media screen and (max-width:800px)and (min-width:740px){
     #navbar{
         flex-wrap: wrap;
-        gap: 5%;
+        gap: 3px;
+    }
+    
+    .bar {
+        display: block;
+        width: 40px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
     }
     #log{
         width: 15%;
-        height: 8%; 
-    }
+            }
+          
     #Homepage{
         flex-wrap: wrap;
         padding-bottom: 10%;
@@ -230,5 +275,7 @@ body{
       #skilbutton{
         font-size: smaller;
       }
+
+
 }
 
